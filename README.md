@@ -3,7 +3,7 @@
 ## Synopsis:
 This is a Discord bot minigame written in Python that allows players to control an authentic Super Nintendo  
 console from the '90s with emoji reactions and messages like Twitch Plays Pokemon!  
-Note: sometimes the wireless GIMX receiver drops signals - a minor bug...
+Completed for CDM-198.
 
 ## Special Thanks:
 * Professor LeMieux for helping me play-test this Discord bot!
