@@ -23,6 +23,7 @@ Completed for CDM-198.
 
 ## Example:
 [YouTube demonstration](https://youtu.be/RbavAC5LDEk?t=463)
+[Professor LeMieux demonstration](https://www.youtube.com/watch?v=mZoVbxi-5-Y&t=15762s)
 
 ## Support:
 * Windows :heavy_check_mark:
