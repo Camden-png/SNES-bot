@@ -5,8 +5,19 @@ This is a Discord bot minigame written in Python that allows players to control 
 console from the '90s with emoji reactions and messages like Twitch Plays Pokemon!  
 Completed for CDM-198.
 
-## Special Thanks:
-* Professor LeMieux for helping me play-test this Discord bot!
+## How It Works:
+Using the adapters listed below, I hijack the SNES' I/O to emulate controller signals  
+I use Python code to convert a PS3 controller signal into a PS2 signal into a hacked SNES signal
+
+![](Images/Border1.png)
+
+The Discord bot and SNES video feed are hosted on a Raspberry Pi 4.
+
+![](Images/Border2.png)
+
+## Example Videos:
+[YouTube demonstration](https://youtu.be/RbavAC5LDEk?t=463)  
+[Professor LeMieux demonstration](https://www.youtube.com/watch?v=mZoVbxi-5-Y&t=15762s)
 
 ## Requirements:
 * [Python 3.6+](https://www.python.org/)
@@ -21,14 +32,13 @@ Completed for CDM-198.
 * In the GIMX launcher, *Output: GIMX adapter, Input: Network, IP: 127.0.0.1:51914, Messages: None*
 * In your terminal: *python SNES-bot.py*
 
-## Example:
-[YouTube demonstration](https://youtu.be/RbavAC5LDEk?t=463)
-[Professor LeMieux demonstration](https://www.youtube.com/watch?v=mZoVbxi-5-Y&t=15762s)
-
 ## Support:
 * Windows :heavy_check_mark:
 * Linux: :heavy_check_mark:
 * Mac: :heavy_check_mark:
 
+## Special Thanks:
+* Professor LeMieux for helping me play-test this Discord bot!
+
 ## Future:
-A full re-write using Arduinos, relays, and an authentic controller!
+* A full re-write using Arduinos, relays, and an authentic controller!
