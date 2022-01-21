@@ -6,8 +6,7 @@ console from the '90s with emoji reactions and messages like Twitch Plays Pokemo
 Completed for CDM-198.
 
 ## How It Works:
-Using the adapters listed below, I hijack the SNES' I/O to emulate controller signals  
-I use Python code to convert a PS3 controller signal into a PS2 signal into a hacked SNES signal
+Python code converts PS3 controller signals into PS2 signals and then into SNES signals
 
 ![](Images/Border1.png)
 
@@ -20,7 +19,7 @@ The Discord bot and SNES video feed are hosted on a Raspberry Pi 4.
 [Professor LeMieux demonstration](https://www.youtube.com/watch?v=mZoVbxi-5-Y&t=15762s)
 
 ## Requirements:
-* [Python 3.6+](https://www.python.org/)
+* [Python 3.7](https://www.python.org/)
 * [Discord Library](https://pypi.org/project/discord.py/) - *pip install discord*
 * On [Windows](https://www.codegrepper.com/code-examples/whatever/discord+ssl+certificate+error) and [Mac](https://pastebin.com/8Cs0C8c4) download a Discord certificate
 * [GIMX Adapter and Launcher](https://blog.gimx.fr/product/gimx-adapter/) to convert Discord interactions into PS3 controller signals
@@ -39,6 +38,3 @@ The Discord bot and SNES video feed are hosted on a Raspberry Pi 4.
 
 ## Special Thanks:
 * Professor LeMieux for helping me play-test this Discord bot!
-
-## Future:
-* A full re-write using Arduinos, relays, and an authentic controller!
