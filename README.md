@@ -2,15 +2,14 @@
 
 ## Synopsis:
 This is a Discord bot minigame written in Python that allows players to control an authentic Super Nintendo  
-console from the '90s with emoji reactions and messages like Twitch Plays Pokemon!  
-Completed for CDM-198.
+console from the '90s with emoji reactions and messages like Twitch Plays Pokemon!
 
 ## How It Works:
 Python code converts PS3 controller signals into PS2 signals and then into SNES signals
 
 ![](Images/Border1.png)
 
-The Discord bot and SNES video feed are hosted on a Raspberry Pi 4.
+The Discord bot and SNES video feed are hosted on a Raspberry Pi 4
 
 ![](Images/Border2.png)
 
